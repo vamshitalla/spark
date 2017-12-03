@@ -15,7 +15,7 @@ object JsonToParquetDF {
 
     val path = "/usr/local/Cellar/apache-spark/2.2.0/libexec/examples/src/main/resources/people.json"
 
-    val conf = new SparkConf().setAppName("Programmatic DF").setMaster("local[*]")
+    val conf = new SparkConf().setAppName("Json To Parquet DF").setMaster("local[*]")
 
     val sc = new SparkContext(conf)
 
