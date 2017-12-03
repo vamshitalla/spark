@@ -1,0 +1,15 @@
+[0m[[0m[0minfo[0m] [0m[0mPackaging /Users/vamshitalla/IdeaProjects/spark/MergeParquetSchema/target/scala-2.10/mergeparquetschema_2.10-0.1.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MergeParquetSchema$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vamshitalla/IdeaProjects/spark/MergeParquetSchema/target/scala-2.10/classes/MergeParquetSchema$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MergeParquetSchema.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vamshitalla/IdeaProjects/spark/MergeParquetSchema/target/scala-2.10/classes/MergeParquetSchema.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MergeParquetSchema$$typecreator1$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vamshitalla/IdeaProjects/spark/MergeParquetSchema/target/scala-2.10/classes/MergeParquetSchema$$typecreator1$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MergeParquetSchema$$typecreator2$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vamshitalla/IdeaProjects/spark/MergeParquetSchema/target/scala-2.10/classes/MergeParquetSchema$$typecreator2$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MergeParquetSchema$$anonfun$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vamshitalla/IdeaProjects/spark/MergeParquetSchema/target/scala-2.10/classes/MergeParquetSchema$$anonfun$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MergeParquetSchema$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vamshitalla/IdeaProjects/spark/MergeParquetSchema/target/scala-2.10/classes/MergeParquetSchema$.class[0m
+[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m
