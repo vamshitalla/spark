@@ -25,7 +25,9 @@ object LoadnSaveDF {
 
     val df = sqlContext.read.load(path)
 
-    df.select("name", "favorite_color").write.save("namesAndFavColors.parquet")
+    df.select("name", "favorite_color").write.mode("overwrite").save("namesAndFavColors.parquet")
+
+    df.show()
 
   }
 
