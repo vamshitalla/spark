@@ -23,7 +23,7 @@ object JsonToParquetDF {
 
     val people = sqlContext.read.format("json").load(path)
 
-    people.select("name", "age").write.format("parquet").save("namesAndAges.parquet")
+    people.select("name", "age").write.format("parquet").mode("overwrite").save("namesAndAges.parquet")
 
     //Query the file directly with SQL instead of loading it into a DF using read API and query it
     val df = sqlContext.sql("select * from parquet. `/Users/vamshitalla/IdeaProjects/spark/JsonToParquetDF/namesAndAges.parquet`")
