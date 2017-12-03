@@ -1,0 +1,17 @@
+[0m[[0m[0minfo[0m] [0m[0mPackaging /Users/vamshitalla/IdeaProjects/spark/ReflectionDF/target/scala-2.10/reflectiondf_2.10-0.1.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Person$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vamshitalla/IdeaProjects/spark/ReflectionDF/target/scala-2.10/classes/Person$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Person.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vamshitalla/IdeaProjects/spark/ReflectionDF/target/scala-2.10/classes/Person.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ReflectionDFDriver$$typecreator1$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vamshitalla/IdeaProjects/spark/ReflectionDF/target/scala-2.10/classes/ReflectionDFDriver$$typecreator1$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ReflectionDFDriver$$anonfun$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vamshitalla/IdeaProjects/spark/ReflectionDF/target/scala-2.10/classes/ReflectionDFDriver$$anonfun$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ReflectionDFDriver$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vamshitalla/IdeaProjects/spark/ReflectionDF/target/scala-2.10/classes/ReflectionDFDriver$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ReflectionDFDriver$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vamshitalla/IdeaProjects/spark/ReflectionDF/target/scala-2.10/classes/ReflectionDFDriver$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ReflectionDFDriver.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/vamshitalla/IdeaProjects/spark/ReflectionDF/target/scala-2.10/classes/ReflectionDFDriver.class[0m
+[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m
