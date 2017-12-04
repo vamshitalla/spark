@@ -10,7 +10,7 @@ import org.apache.spark.SparkConf
 
 import org.apache.spark.sql.hive.HiveContext
 
-object HiveContextExample {
+object HiveContextDemo {
 
   def main(args: Array[String]): Unit = {
 
@@ -22,7 +22,7 @@ object HiveContextExample {
 
     hiveCtx.sql("CREATE TABLE IF NOT EXISTS src(key INT, value STRING)")
 
-    hiveCtx.sql("LOAD DATA LOCAL INPATH '/usr/local/Cellar/apache-spark/2.2.0/libexec/examples/src/main/resources/kv1.txt' OVERWRITE INTO TABLE src")
+    hiveCtx.sql("LOAD DATA LOCAL INPATH '/usr/local/Cellar/apache-spark/examples/src/main/resources/kv1.txt' OVERWRITE INTO TABLE src")
 
     hiveCtx.sql("SELECT key, value FROM src").collect().foreach(println)
 

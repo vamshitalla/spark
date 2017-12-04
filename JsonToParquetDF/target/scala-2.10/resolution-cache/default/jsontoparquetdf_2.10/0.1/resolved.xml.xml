@@ -4,7 +4,7 @@
 		module="jsontoparquetdf_2.10"
 		revision="0.1"
 		status="integration"
-		publication="20171203151127"
+		publication="20171204155442"
 	>
 		<description>
 		JsonToParquetDF

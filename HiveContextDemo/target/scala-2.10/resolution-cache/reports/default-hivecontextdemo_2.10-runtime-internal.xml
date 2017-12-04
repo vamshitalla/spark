@@ -7,27 +7,27 @@
 		revision="0.1"
 		conf="runtime-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20171203173535"/>
+		date="20171204155119"/>
 	<dependencies>
 		<module organisation="org.apache.spark" name="spark-hive_2.10">
-			<revision name="1.6.3" status="release" pubdate="20161102184843" resolver="public" artresolver="public" homepage="http://spark.apache.org/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="129">
+			<revision name="1.6.3" status="release" pubdate="20161102184843" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spark.apache.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="129">
 				<license name="Apache 2.0 License" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
-				<metadata-artifact status="successful" details="" size="20755" time="263" location="/Users/vamshitalla/.ivy2/cache/org.apache.spark/spark-hive_2.10/ivy-1.6.3.xml" searched="true" original-local-location="/Users/vamshitalla/.ivy2/cache/org.apache.spark/spark-hive_2.10/ivy-1.6.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-hive_2.10/1.6.3/spark-hive_2.10-1.6.3.pom"/>
+				<metadata-artifact status="no" details="" size="81859" time="0" location="/Users/vamshitalla/.ivy2/cache/org.apache.spark/spark-hive_2.10/ivy-1.6.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-hive_2.10/1.6.3/spark-hive_2.10-1.6.3.pom"/>
 				<caller organisation="default" name="hivecontextdemo_2.10" conf="compile, runtime-internal, runtime, optional" rev="1.6.3" rev-constraint-default="1.6.3" rev-constraint-dynamic="1.6.3" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="spark-hive_2.10" type="jar" ext="jar" status="successful" details="" size="1315647" time="1866" location="/Users/vamshitalla/.ivy2/cache/org.apache.spark/spark-hive_2.10/jars/spark-hive_2.10-1.6.3.jar">
+					<artifact name="spark-hive_2.10" type="jar" ext="jar" status="no" details="" size="1315647" time="0" location="/Users/vamshitalla/.ivy2/cache/org.apache.spark/spark-hive_2.10/jars/spark-hive_2.10-1.6.3.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/spark/spark-hive_2.10/1.6.3/spark-hive_2.10-1.6.3.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="joda-time" name="joda-time">
-			<revision name="2.9.3" status="release" pubdate="20160327143531" resolver="public" artresolver="public" homepage="http://www.joda.org/joda-time/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="164">
+			<revision name="2.9.3" status="release" pubdate="20160327143531" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.joda.org/joda-time/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="164">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="30026" time="286" location="/Users/vamshitalla/.ivy2/cache/joda-time/joda-time/ivy-2.9.3.xml" searched="true" original-local-location="/Users/vamshitalla/.ivy2/cache/joda-time/joda-time/ivy-2.9.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/joda-time/joda-time/2.9.3/joda-time-2.9.3.pom"/>
+				<metadata-artifact status="no" details="" size="6595" time="0" location="/Users/vamshitalla/.ivy2/cache/joda-time/joda-time/ivy-2.9.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/joda-time/joda-time/2.9.3/joda-time-2.9.3.pom"/>
 				<caller organisation="org.apache.spark" name="spark-hive_2.10" conf="default, compile, runtime, master" rev="2.9.3" rev-constraint-default="2.9.3" rev-constraint-dynamic="2.9.3" callerrev="1.6.3"/>
 				<artifacts>
-					<artifact name="joda-time" type="jar" ext="jar" status="successful" details="" size="627814" time="2815" location="/Users/vamshitalla/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.9.3.jar">
+					<artifact name="joda-time" type="jar" ext="jar" status="no" details="" size="627814" time="0" location="/Users/vamshitalla/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.9.3.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/joda-time/joda-time/2.9.3/joda-time-2.9.3.jar"/>
 					</artifact>
 				</artifacts>
@@ -131,12 +131,12 @@
 			</revision>
 		</module>
 		<module organisation="org.spark-project.hive" name="hive-cli">
-			<revision name="1.2.1.spark" status="release" pubdate="20150801015835" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="131">
+			<revision name="1.2.1.spark" status="release" pubdate="20150801015835" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="131">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="5294" time="214" location="/Users/vamshitalla/.ivy2/cache/org.spark-project.hive/hive-cli/ivy-1.2.1.spark.xml" searched="true" original-local-location="/Users/vamshitalla/.ivy2/cache/org.spark-project.hive/hive-cli/ivy-1.2.1.spark.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/spark-project/hive/hive-cli/1.2.1.spark/hive-cli-1.2.1.spark.pom"/>
+				<metadata-artifact status="no" details="" size="24416" time="0" location="/Users/vamshitalla/.ivy2/cache/org.spark-project.hive/hive-cli/ivy-1.2.1.spark.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/spark-project/hive/hive-cli/1.2.1.spark/hive-cli-1.2.1.spark.pom"/>
 				<caller organisation="org.apache.spark" name="spark-hive_2.10" conf="default, compile, runtime, master" rev="1.2.1.spark" rev-constraint-default="1.2.1.spark" rev-constraint-dynamic="1.2.1.spark" callerrev="1.6.3"/>
 				<artifacts>
-					<artifact name="hive-cli" type="jar" ext="jar" status="successful" details="" size="40812" time="1097" location="/Users/vamshitalla/.ivy2/cache/org.spark-project.hive/hive-cli/jars/hive-cli-1.2.1.spark.jar">
+					<artifact name="hive-cli" type="jar" ext="jar" status="no" details="" size="40812" time="0" location="/Users/vamshitalla/.ivy2/cache/org.spark-project.hive/hive-cli/jars/hive-cli-1.2.1.spark.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/spark-project/hive/hive-cli/1.2.1.spark/hive-cli-1.2.1.spark.jar"/>
 					</artifact>
 				</artifacts>

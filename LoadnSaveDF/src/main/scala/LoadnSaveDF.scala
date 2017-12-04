@@ -15,7 +15,7 @@ object LoadnSaveDF {
 
   def main(args: Array[String]): Unit = {
 
-    val path = "/usr/local/Cellar/apache-spark/2.2.0/libexec/examples/src/main/resources/users.parquet"
+    val path = "/usr/local/Cellar/apache-spark/examples/src/main/resources/users.parquet"
 
     val conf = new SparkConf().setAppName("Load n Save DF").setMaster("local[*]")
 

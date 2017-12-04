@@ -13,7 +13,7 @@ object JsonToParquetDF {
 
   def main(args: Array[String]): Unit = {
 
-    val path = "/usr/local/Cellar/apache-spark/2.2.0/libexec/examples/src/main/resources/people.json"
+    val path = "/usr/local/Cellar/apache-spark/examples/src/main/resources/people.json"
 
     val conf = new SparkConf().setAppName("Json To Parquet DF").setMaster("local[*]")
 
