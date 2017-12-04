@@ -24,7 +24,7 @@ object HiveContextExample {
 
     hiveCtx.sql("LOAD DATA LOCAL INPATH '/usr/local/Cellar/apache-spark/2.2.0/libexec/examples/src/main/resources/kv1.txt' OVERWRITE INTO TABLE src")
 
-    hiveCtx.sql("FROM src SELECT key, value").collect().foreach(println)
+    hiveCtx.sql("SELECT key, value FROM src").collect().foreach(println)
 
 
   }
