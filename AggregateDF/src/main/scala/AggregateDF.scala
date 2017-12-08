@@ -13,6 +13,12 @@ object AggregateDF {
 
   def main(args: Array[String]): Unit = {
 
+    calculateSales
+
+  }
+
+  def calculateSales: Unit = {
+
     val path="/Users/vamshitalla/IdeaProjects/spark/AggregateDF/data.txt"
 
     val conf = new SparkConf().setAppName("Aggregate DataFrame").setMaster("local[*]")
@@ -34,8 +40,7 @@ object AggregateDF {
       .drop("item")
       .drop("price")
       .groupBy("name").sum("quantity", "extended_price")
-
-    newDF.show()
+      .show()
   }
 
 }
