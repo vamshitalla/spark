@@ -1,0 +1,1 @@
+case class Products(Product: String, Original: Float, Minimum: Float, Maximum: Float)

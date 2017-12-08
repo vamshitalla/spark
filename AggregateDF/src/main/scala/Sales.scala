@@ -1,0 +1,1 @@
+case class Sales(name:String, item:String, quantity:Int, price:Int)
