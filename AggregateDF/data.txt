@@ -4,4 +4,4 @@ scott, chairs, 5, 30
 ryan, pepper, 2, 4
 ryan, salt, 3, 5
 sam, cookies, 4, 5
-sam, salt, 4, 3
+sam, salt, 4, 13
